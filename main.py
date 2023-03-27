@@ -84,6 +84,6 @@ reset_button = Button(text="Reset", font=(FONT_NAME, 10), bg=PINK,
                       fg=WHITE, highlightthickness=0, command=reset_timer)
 reset_button.grid(column=2, row=2)
 
-# window.attributes('-topmost', True)
+window.attributes('-topmost', True)
 
 window.mainloop()
